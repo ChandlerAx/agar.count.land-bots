@@ -1,12 +1,12 @@
 const WebSocket = require('ws');
 
-const botCount = 100;
+const botcount = 100;
 const bots = [];
 var pck = new DataView(new ArrayBuffer(1024))
 
 async function sock() {
 
-  for (let i = 0; i < botCount; i++) {
+  for (let i = 0; i < botcount; i++) {
     const bot = new WebSocket('wss://count.land:8443/');
     bots.push(bot);
 
