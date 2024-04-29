@@ -14,6 +14,10 @@ const mouse_controller = {
     to_up: { x: 0, y: -300 },
     to_left: { x: -300, y: 0 },
     to_right: { x: 300, y: 0 },
+    to_bottom_left: { x: -300, y: 300 },
+    to_bottom_right: { x: 300, y: 300 },
+    to_up_left: { x: -300, y: -300 },
+    to_up_right: { x: 300, y: -300 }
 };
 
 const packets = {
