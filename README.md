@@ -1,4 +1,4 @@
-Bots for https://agar.count.land/
+Bots for https://agar.count.land/ (offline)
 <br>
 This is just a fun-project based, not to abuse or damage anything (educatiol perposes.)
 
